@@ -3,25 +3,30 @@
 
 <head>
     <title>Google</title>
-    <link rel="stylesheet" type="text/css" href="/home/bret/the_odin_project/google-homepage/style.css">
-    <link rel="stylesheet" media="screen" href="https://fontlibrary.org/face/liberation-sans" type="text/css" />
+    <link rel="stylesheet" type="text/css" href="/Users/bretg/the_odin_project/google-homepage/style.css">
+    <link rel="stylesheet" media="screen" href="https://fontlibrary.org/face/liberation-sans" type="text/css">
 </head>
 
 <body>
-    <div class="header">
-        <ul>
-            <li><a id="headerlinkleft" href="">About</a></li>
-            <li><a id="headerlinkleft" href="">Store</a></li>
-            <li><input id="headersignin" type="submit" value="Sign in"></li>
-            <li><a id="headergrid" href=""><img src="http://simpleicon.com/wp-content/uploads/dots.png"
+    <div id="header">
+        <span class="left">
+            <ul>
+                <li><a href="">About</a></li>
+                <li><a href="">Store</a></li>
+            </ul>
+        </span>
+        <span class='right'>
+            <ul>
+                <li><button id="headersignin" type="button">Sign in</button></li>
+                <li><a id="headergrid" href=""><img src="http://simpleicon.com/wp-content/uploads/dots.png"
                         height="18px"></a></li>
-            <li><a id="headerlinkright" href="">Images</a></li>
-            <li> <a id="headerlinkright" href="">Gmail</a></li>
-        </ul>
+                <li><a href="">Images</a></li>
+                <li> <a href="">Gmail</a></li>
+            </ul>
+        </span>
     </div>
-    <div id="centercontainer">
-        <div> <img id="logo" src="/home/bret/the_odin_project/google-homepage/google_logo.png">
-        </div>
+    <div id="maincontent">
+        <img id="logo" src="https://www.google.com/images/branding/googlelogo/2x/googlelogo_color_272x92dp.png" width="272px" height="92px">
         <div>
             <input class="searchbar" id="searchbaricon" type="text">
             <br>
@@ -29,9 +34,22 @@
             <input id="searchbutton" type="submit" value="I'm Feeling Lucky">
         </div>
     </div>
-    <div>
-        <p>Need a footer here.</p>
-    </div>
+    <!-- <div class="footer">
+        <span>
+            <ul>
+                <li><a ref="">Advertising</a></li>
+                <li><a href="">Business</a></li>
+                <li><a href="">How Search Works</a></li>
+            </ul>
+        </span>
+        <span>
+            <ul>
+                <li><a href="">Privacy</a></li>
+                <li> <a href="">Terms</a></li>
+                <li> <a href="">Settings</a></li>
+            </ul>
+        </span>
+    </div> -->
 </body>
 
 </html>
